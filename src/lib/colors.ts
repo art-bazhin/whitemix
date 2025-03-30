@@ -40,7 +40,7 @@ export function add(target: ColorBinary, source: ColorBinary) {
   return target | source;
 }
 
-export function inverse(target: ColorBinary) {
+export function invert(target: ColorBinary) {
   if (target === WHITE.bin) return target;
   return WHITE.bin - target;
 }
